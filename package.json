@@ -1,0 +1,32 @@
+{
+  "name": "blob-sas-upload-demo",
+  "version": "1.0.0",
+  "description": "Proof of concept – secure log upload via Azure Blob Storage SAS tokens",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --testPathPatterns=tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-mihaiAdam/blob-sas-upload-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/robert-mihaiAdam/blob-sas-upload-demo/issues"
+  },
+  "homepage": "https://github.com/robert-mihaiAdam/blob-sas-upload-demo#readme",
+  "dependencies": {
+    "@azure/storage-blob": "^12.31.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "node-mocks-http": "^1.17.2",
+    "supertest": "^7.2.2"
+  }
+}
