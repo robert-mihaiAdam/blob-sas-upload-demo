@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "blob-sas-upload-demo": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}

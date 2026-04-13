@@ -1,0 +1,41 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
+
+# Environment / secrets
+.env
+*.env
+!.env.example
+appsettings.*.json
+!appsettings.json
